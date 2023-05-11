@@ -1,6 +1,48 @@
-.head{
+.general-text{
+    font-size:12px;
+    font-family: sans-serif;
+}
+.myhead{
     display:flex;
     border-bottom: 1px solid gray;
+    background-color: aqua;
+    padding: 16px 800px;
+    justify-content: center;
+    /*height: 80px;*/
 }
 
+.mybody{
+    margin: 0;
+    background-color: blueviolet;
+}
+.rounded-button{
+    /*border-radius: 20px;  Ajusta el valor según el tamaño deseado */
+   /* padding: 9px 20px;  Ajusta el padding según el tamaño deseado */
+    /*border: none;  Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    outline: 0;
+    line-height: 14px;
+    }
+.p{
+        margin-right: 30px;
+    }
+.button {
+    background-color: white;
+    border-radius: 32px;
+    border: 2px solid black;
+    padding: 0 20px;
+    height: 36px;
+}
+.menu-button{
+    background-color: #ffffff; /* Color de fondo del botón */
+}
+.navbar-left{
+display: flex;
 
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    
+}
